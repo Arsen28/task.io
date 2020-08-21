@@ -1,0 +1,16 @@
+.containner {
+    border-bottom: 1px solid;
+    cursor: pointer;
+    transition: all 0.5s;
+    padding: 5px;
+  }
+  .containner:hover {
+    background-color: #ccc;
+  }
+  .containner:not(:first-child) {
+    margin-top: 5px;
+  }
+  .title {
+    margin-bottom: 20px;
+  }
+  
